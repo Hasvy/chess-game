@@ -1,0 +1,42 @@
+D:\Programming\MyProjects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.exe
+D:\Programming\MyProjects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.deps.json
+D:\Programming\MyProjects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.runtimeconfig.json
+D:\Programming\MyProjects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.runtimeconfig.dev.json
+D:\Programming\MyProjects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.dll
+D:\Programming\MyProjects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.pdb
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3_MarkupCompile.cache
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3_MarkupCompile.lref
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.g.resources
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.AssemblyInfoInputs.cache
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.AssemblyInfo.cs
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.csproj.CoreCompileInputs.cache
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.dll
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.pdb
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.genruntimeconfig.cache
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\App.baml
+D:\Programming\MyProjects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.csproj.AssemblyReference.cache
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.exe
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.deps.json
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.runtimeconfig.json
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.runtimeconfig.dev.json
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.dll
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\bin\Debug\netcoreapp3.1\WpfApp3.pdb
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.csproj.AssemblyReference.cache
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3_MarkupCompile.cache
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3_MarkupCompile.lref
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.g.resources
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.AssemblyInfoInputs.cache
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.AssemblyInfo.cs
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.dll
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.pdb
+C:\Users\romzav\OneDrive - Jihočeská univerzita v Českých Budějovicích\Projects\WpfApp3\WpfApp3\obj\Debug\netcoreapp3.1\WpfApp3.genruntimeconfig.cache

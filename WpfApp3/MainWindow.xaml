@@ -1,0 +1,194 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="820" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock Background="LightGray" Name="lblCursorPosition"/>
+        <Border BorderThickness="0,20,0,0">
+            <Grid>
+                <Grid>
+                    <Border Panel.ZIndex="0" BorderThickness="40" BorderBrush="{StaticResource Dark}"></Border>
+                    <Border Panel.ZIndex="0" BorderThickness="35" BorderBrush="{StaticResource Light}"></Border>
+                    <Border Panel.ZIndex="0" BorderThickness="30" BorderBrush="{StaticResource Dark}"></Border>
+                    <Border Panel.ZIndex="0" BorderThickness="5" BorderBrush="{StaticResource Light}"></Border>
+                </Grid>
+                <Grid Margin="40,5,40,735">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock TextAlignment="Center" FontSize="25" Foreground="{StaticResource Light}" HorizontalAlignment="Center" VerticalAlignment="Center">A</TextBlock>
+                    <TextBlock Grid.Column="1" TextAlignment="Center" FontSize="25" Foreground="{StaticResource Light}" HorizontalAlignment="Center" VerticalAlignment="Center">B</TextBlock>
+                    <TextBlock Grid.Column="2" TextAlignment="Center" FontSize="25" Foreground="{StaticResource Light}" HorizontalAlignment="Center" VerticalAlignment="Center">C</TextBlock>
+                    <TextBlock Grid.Column="3" TextAlignment="Center" FontSize="25" Foreground="{StaticResource Light}" HorizontalAlignment="Center" VerticalAlignment="Center">D</TextBlock>
+                    <TextBlock Grid.Column="4" TextAlignment="Center" FontSize="25" Foreground="{StaticResource Light}" HorizontalAlignment="Center" VerticalAlignment="Center">E</TextBlock>
+                    <TextBlock Grid.Column="5" TextAlignment="Center" FontSize="25" Foreground="{StaticResource Light}" HorizontalAlignment="Center" VerticalAlignment="Center">F</TextBlock>
+                    <TextBlock Grid.Column="6" TextAlignment="Center" FontSize="25" Foreground="{StaticResource Light}" HorizontalAlignment="Center" VerticalAlignment="Center">G</TextBlock>
+                    <TextBlock Grid.Column="7" TextAlignment="Center" FontSize="25" Foreground="{StaticResource Light}" HorizontalAlignment="Center" VerticalAlignment="Center">H</TextBlock>
+                </Grid>
+                <Grid Margin="5,40,755,40">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" FontSize="25" TextAlignment="Center" Foreground="{StaticResource Light}" VerticalAlignment="Center">8</TextBlock>
+                    <TextBlock Grid.Row="1" FontSize="25" TextAlignment="Center" Padding="0,20" Foreground="{StaticResource Light}" VerticalAlignment="Center">7</TextBlock>
+                    <TextBlock Grid.Row="2" FontSize="25" TextAlignment="Center" Padding="0,20" Foreground="{StaticResource Light}" VerticalAlignment="Center">6</TextBlock>
+                    <TextBlock Grid.Row="3" FontSize="25" TextAlignment="Center" Padding="0,20" Foreground="{StaticResource Light}" VerticalAlignment="Center">5</TextBlock>
+                    <TextBlock Grid.Row="4" FontSize="25" TextAlignment="Center" Padding="0,20" Foreground="{StaticResource Light}" VerticalAlignment="Center">4</TextBlock>
+                    <TextBlock Grid.Row="5" FontSize="25" TextAlignment="Center" Padding="0,20" Foreground="{StaticResource Light}" VerticalAlignment="Center">3</TextBlock>
+                    <TextBlock Grid.Row="6" FontSize="25" TextAlignment="Center" Padding="0,20" Foreground="{StaticResource Light}" VerticalAlignment="Center">2</TextBlock>
+                    <TextBlock Grid.Row="7" FontSize="25" TextAlignment="Center" Padding="0,20" Foreground="{StaticResource Light}" VerticalAlignment="Center">1</TextBlock>
+                </Grid>
+                <Grid Margin="39" DragOver="Grid_DragOver" MouseLeftButtonDown="Grid_MouseLeftButtonDown" MouseLeftButtonUp="Grid_MouseLeftButtonUp" Drop="Grid_Drop" AllowDrop="True" x:Name="grid">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Tag="cell" Grid.Row="0" Grid.Column="0" x:Name="A8" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="0" Grid.Column="1" x:Name="B8" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="0" Grid.Column="2" x:Name="C8" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="0" Grid.Column="3" x:Name="D8" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="0" Grid.Column="4" x:Name="E8" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="0" Grid.Column="5" x:Name="F8" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="0" Grid.Column="6" x:Name="G8" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="0" Grid.Column="7" x:Name="H8" Background="{StaticResource Dark}"></Grid>
+
+                    <Grid Tag="cell" Grid.Row="1" Grid.Column="0" x:Name="A7" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="1" Grid.Column="1" x:Name="B7" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="1" Grid.Column="2" x:Name="C7" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="1" Grid.Column="3" x:Name="D7" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="1" Grid.Column="4" x:Name="E7" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="1" Grid.Column="5" x:Name="F7" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="1" Grid.Column="6" x:Name="G7" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="1" Grid.Column="7" x:Name="H7" Background="{StaticResource Light}"></Grid>
+
+                    <Grid Tag="cell" Grid.Row="2" Grid.Column="0" x:Name="A6" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="2" Grid.Column="1" x:Name="B6" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="2" Grid.Column="2" x:Name="C6" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="2" Grid.Column="3" x:Name="D6" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="2" Grid.Column="4" x:Name="E6" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="2" Grid.Column="5" x:Name="F6" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="2" Grid.Column="6" x:Name="G6" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="2" Grid.Column="7" x:Name="H6" Background="{StaticResource Dark}"></Grid>
+
+                    <Grid Tag="cell" Grid.Row="3" Grid.Column="0" x:Name="A5" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="3" Grid.Column="1" x:Name="B5" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="3" Grid.Column="2" x:Name="C5" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="3" Grid.Column="3" x:Name="D5" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="3" Grid.Column="4" x:Name="E5" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="3" Grid.Column="5" x:Name="F5" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="3" Grid.Column="6" x:Name="G5" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="3" Grid.Column="7" x:Name="H5" Background="{StaticResource Light}"></Grid>
+
+                    <Grid Tag="cell" Grid.Row="4" Grid.Column="0" x:Name="A4" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="4" Grid.Column="1" x:Name="B4" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="4" Grid.Column="2" x:Name="C4" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="4" Grid.Column="3" x:Name="D4" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="4" Grid.Column="4" x:Name="E4" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="4" Grid.Column="5" x:Name="F4" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="4" Grid.Column="6" x:Name="G4" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="4" Grid.Column="7" x:Name="H4" Background="{StaticResource Dark}"></Grid>
+
+                    <Grid Tag="cell" Grid.Row="5" Grid.Column="0" x:Name="A3" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="5" Grid.Column="1" x:Name="B3" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="5" Grid.Column="2" x:Name="C3" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="5" Grid.Column="3" x:Name="D3" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="5" Grid.Column="4" x:Name="E3" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="5" Grid.Column="5" x:Name="F3" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="5" Grid.Column="6" x:Name="G3" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="5" Grid.Column="7" x:Name="H3" Background="{StaticResource Light}"></Grid>
+
+                    <Grid Tag="cell" Grid.Row="6" Grid.Column="0" x:Name="A2" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="6" Grid.Column="1" x:Name="B2" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="6" Grid.Column="2" x:Name="C2" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="6" Grid.Column="3" x:Name="D2" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="6" Grid.Column="4" x:Name="E2" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="6" Grid.Column="5" x:Name="F2" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="6" Grid.Column="6" x:Name="G2" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="6" Grid.Column="7" x:Name="H2" Background="{StaticResource Dark}"></Grid>
+
+                    <Grid Tag="cell" Grid.Row="7" Grid.Column="0" x:Name="A1" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="7" Grid.Column="1" x:Name="B1" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="7" Grid.Column="2" x:Name="C1" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="7" Grid.Column="3" x:Name="D1" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="7" Grid.Column="4" x:Name="E1" Background="{StaticResource Dark}"></Grid>
+                    <Grid Tag="cell" Grid.Row="7" Grid.Column="5" x:Name="F1" Background="{StaticResource Light}"></Grid>
+                    <Grid Tag="cell" Grid.Row="7" Grid.Column="6" x:Name="G1" Background="{StaticResource Dark }"></Grid>
+                    <Grid Tag="cell" Grid.Row="7" Grid.Column="7" x:Name="H1" Background="{StaticResource Light}"></Grid>
+
+                    <Image Tag="figure pawn" Grid.Column="0" Grid.Row="1" MouseMove="Figure_MouseMove" x:Name="bPawn1" Source="/images/black_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="1" Grid.Row="1" MouseMove="Figure_MouseMove" x:Name="bPawn2" Source="/images/black_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="2" Grid.Row="1" MouseMove="Figure_MouseMove" x:Name="bPawn3" Source="/images/black_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="3" Grid.Row="1" MouseMove="Figure_MouseMove" x:Name="bPawn4" Source="/images/black_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="4" Grid.Row="1" MouseMove="Figure_MouseMove" x:Name="bPawn5" Source="/images/black_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="5" Grid.Row="1" MouseMove="Figure_MouseMove" x:Name="bPawn6" Source="/images/black_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="6" Grid.Row="1" MouseMove="Figure_MouseMove" x:Name="bPawn7" Source="/images/black_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="7" Grid.Row="1" MouseMove="Figure_MouseMove" x:Name="bPawn8" Source="/images/black_pawn.png"/>
+                    <Image Tag="figure king" Grid.Column="4" Grid.Row="0" MouseMove="Figure_MouseMove" x:Name="bKing" Source="/images/black_king.png"/>
+                    <Image Tag="figure queen" Grid.Column="3" Grid.Row="0" MouseMove="Figure_MouseMove" x:Name="bQueen" Source="/images/black_queen.png"/>
+                    <Image Tag="figure bishop" Grid.Column="2" Grid.Row="0" MouseMove="Figure_MouseMove" x:Name="bBishop1" Source="/images/black_bishop.png"/>
+                    <Image Tag="figure bishop" Grid.Column="5" Grid.Row="0" MouseMove="Figure_MouseMove" x:Name="bBishop2" Source="/images/black_bishop.png"/>
+                    <Image Tag="figure knight" Grid.Column="1" Grid.Row="0" MouseMove="Figure_MouseMove" x:Name="bKnight1" Source="/images/black_knight.png"/>
+                    <Image Tag="figure knight" Grid.Column="6" Grid.Row="0" MouseMove="Figure_MouseMove" x:Name="bKnight2" Source="/images/black_knight.png"/>
+                    <Image Tag="figure rook" Grid.Column="0" Grid.Row="0" MouseMove="Figure_MouseMove" x:Name="bRook1" Source="/images/black_rook.png"/>
+                    <Image Tag="figure rook" Grid.Column="7" Grid.Row="0" MouseMove="Figure_MouseMove" x:Name="bRook2" Source="/images/black_rook.png"/>
+
+                    <Image Tag="figure pawn" Grid.Column="0" Grid.Row="6" MouseMove="Figure_MouseMove" x:Name="wPawn1" Source="/images/white_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="1" Grid.Row="6" MouseMove="Figure_MouseMove" x:Name="wPawn2" Source="/images/white_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="2" Grid.Row="6" MouseMove="Figure_MouseMove" x:Name="wPawn3" Source="/images/white_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="3" Grid.Row="6" MouseMove="Figure_MouseMove" x:Name="wPawn4" Source="/images/white_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="4" Grid.Row="6" MouseMove="Figure_MouseMove" x:Name="wPawn5" Source="/images/white_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="5" Grid.Row="6" MouseMove="Figure_MouseMove" x:Name="wPawn6" Source="/images/white_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="6" Grid.Row="6" MouseMove="Figure_MouseMove" x:Name="wPawn7" Source="/images/white_pawn.png"/>
+                    <Image Tag="figure pawn" Grid.Column="7" Grid.Row="6" MouseMove="Figure_MouseMove" x:Name="wPawn8" Source="/images/white_pawn.png"/>
+                    <Image Tag="figure king" Grid.Column="4" Grid.Row="7" MouseMove="Figure_MouseMove" x:Name="wKing" Source="/images/white_king.png"/>
+                    <Image Tag="figure queen" Grid.Column="3" Grid.Row="7" MouseMove="Figure_MouseMove" x:Name="wQueen" Source="/images/white_queen.png"/>
+                    <Image Tag="figure bishop" Grid.Column="2" Grid.Row="7" MouseMove="Figure_MouseMove" x:Name="wBishop1" Source="/images/white_bishop.png"/>
+                    <Image Tag="figure bishop" Grid.Column="5" Grid.Row="7" MouseMove="Figure_MouseMove" x:Name="wBishop2" Source="/images/white_bishop.png"/>
+                    <Image Tag="figure knight" Grid.Column="1" Grid.Row="7" MouseMove="Figure_MouseMove" x:Name="wKnight1" Source="/images/white_knight.png"/>
+                    <Image Tag="figure knight" Grid.Column="6" Grid.Row="7" MouseMove="Figure_MouseMove" x:Name="wKnight2" Source="/images/white_knight.png"/>
+                    <Image Tag="figure rook" Grid.Column="0" Grid.Row="7" MouseMove="Figure_MouseMove" x:Name="wRook1" Source="/images/white_rook.png"/>
+                    <Image Tag="figure rook" Grid.Column="7" Grid.Row="7" MouseMove="Figure_MouseMove" x:Name="wRook2" Source="/images/white_rook.png"/>
+
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

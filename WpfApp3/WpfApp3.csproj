@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="images/black_pawn.png" />
+    <Resource Include="images/black_king.png" />
+    <Resource Include="images/black_queen.png" />
+    <Resource Include="images/black_bishop.png" />
+    <Resource Include="images/black_knight.png" />
+    <Resource Include="images/black_rook.png" />
+    <Resource Include="images/white_pawn.png" />
+    <Resource Include="images/white_king.png" />
+    <Resource Include="images/white_queen.png" />
+    <Resource Include="images/white_bishop.png" />
+    <Resource Include="images/white_knight.png" />
+    <Resource Include="images/white_rook.png" />
+  </ItemGroup>
+
+</Project>
